@@ -23,13 +23,16 @@ function Navbar() {
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Projects
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#Testimonials"
+            className="cursor-pointer hover:text-gray-400"
+          >
             Testimonials
           </a>
         </ul>
@@ -67,21 +70,21 @@ function Navbar() {
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#About"
             className="px-4 py-2 rounded-full inline-block"
           >
             About
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Projects"
             className="px-4 py-2 rounded-full inline-block"
           >
             Projects
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block"
           >
             Testimonials
