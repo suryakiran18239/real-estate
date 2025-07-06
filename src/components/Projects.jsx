@@ -46,10 +46,10 @@ const Projects = () => {
         Crafting Spaces, Building Legacies—Explore Our Portfolio
       </p>
       <div className="flex justify-end items-center mb-8">
-        <button onClick={prevProject} className="bg-gray-200 rounded mr-2 p-3">
+        <button onClick={prevProject} className="bg-gray-200 rounded mr-2 p-3 hover:cursor-pointer">
           <img src={assets.left_arrow} alt="Previous" />
         </button>
-        <button onClick={nextProject} className="bg-gray-200 rounded p-3 mr-2">
+        <button onClick={nextProject} className="bg-gray-200 rounded p-3 mr-2 hover:cursor-pointer">
           <img src={assets.right_arrow} alt="Next" />
         </button>
       </div>
